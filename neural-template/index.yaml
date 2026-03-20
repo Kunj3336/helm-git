@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  neural-template:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-03-20T08:15:13.8001212+05:30"
+    description: A Helm chart for neural digital portfolio
+    digest: 18b7d1f377c86d947b9bf9637e3ceec7e17021b585c1f85536772ba1bef4aba1
+    name: neural-template
+    type: application
+    urls:
+    - neural-template-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-03-20T08:15:13.7819034+05:30"
