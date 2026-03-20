@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  aqua-nova-template:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-03-20T08:00:48.7805244+05:30"
+    description: A Helm chart for aqua-nova-template
+    digest: 391edc10cda1acf9347fbda30af85e99c8104c7cc3b81c1c2572c2f4f1fba21a
+    name: aqua-nova-template
+    type: application
+    urls:
+    - aqua-nova-template-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-03-20T08:00:48.7776864+05:30"

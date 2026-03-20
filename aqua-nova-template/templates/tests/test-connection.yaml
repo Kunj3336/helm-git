@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "aqua-nova-template.fullname" . }}-test-connection"
+  labels:
+    {{- include "aqua-nova-template.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "aqua-nova-template.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
